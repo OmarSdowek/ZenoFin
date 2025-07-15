@@ -8,7 +8,7 @@ class AppAssets {
   static const String profileimage = "assets/images/profileimage.png";
   static const String chartimage = "assets/images/Chart.png";
   static const String profile = "assets/images/profile.jpg";
-  static const String logosplash = "assets/images/pp.png";
+  static const String logosplash = "assets/images/image.png";
 
 
 

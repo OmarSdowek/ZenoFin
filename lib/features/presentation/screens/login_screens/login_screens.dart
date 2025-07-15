@@ -1,6 +1,7 @@
 import 'package:finance_app2/core/resource/app_colors.dart';
 import 'package:finance_app2/features/presentation/screens/login_screens/forget_password.dart';
 import 'package:finance_app2/features/presentation/screens/login_screens/register.dart';
+import 'package:finance_app2/features/presentation/screens/main/home.dart';
 import 'package:finance_app2/features/presentation/widgets/back_buttom.dart';
 import 'package:finance_app2/features/presentation/widgets/password.dart';
 import 'package:finance_app2/features/presentation/widgets/primery_buttom_widegets.dart';
@@ -141,6 +142,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   buttomcolor: Color.fromRGBO(97, 122, 253, 1),
                   onpress: () {
                     if(formkey.currentState!.validate()){
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => Home(),));
                     }
                   },
                 ),

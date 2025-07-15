@@ -25,22 +25,25 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Center(
-              child: Container(
-                width: double.infinity,
-                height: 500.h,
-                child: Image.asset(AppAssets.logosplash),
+        body: Container(
+          color: Colors.white,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Center(
+                child: Container(
+                  width: double.infinity,
+                  height: 500.h,
+                  child: Image.asset(AppAssets.logosplash),
+                ),
               ),
-            ),
-            Text("ZenoFin" , style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 25,
-              color: AppColor.primerycolor
-            ),)
-          ],
+              Text("ZenoFin" , style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 25,
+                color: AppColor.primerycolor
+              ),)
+            ],
+          ),
         ),
       ),
     );

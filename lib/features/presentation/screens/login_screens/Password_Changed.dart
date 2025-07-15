@@ -39,7 +39,7 @@ class PasswordChanged extends StatelessWidget {
               textcolor: Colors.white,
               buttomcolor: Color.fromRGBO(97, 122, 253, 1),
               onpress: () {
-                Navigator.of(context).push( MaterialPageRoute(builder: (context) => Home(),));
+                Navigator.of(context).push( MaterialPageRoute(builder: (context) => LoginScreen(),));
               },
             ),
           ),

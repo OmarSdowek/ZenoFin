@@ -173,7 +173,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       text: "Register",
                       textcolor: Colors.white,
                       buttomcolor: Color.fromRGBO(97, 122, 253, 1),
-                      onpress: () {},
+                      onpress: () {
+                        Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginScreen(),));
+                      },
                     ),
                     SizedBox(
                       height: 35.h,
